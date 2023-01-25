@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <style>
+        body {
+            background: white;
+        }
+
+
+        h4 {
+            text-align: center;
+        }
+
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+
+        h2 {
+            color: #272044;
+            font-weight: normal;
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+            font-weight: lighter;
+        }
+
+        button {
+            border: 1px solid blue;
+            border-radius: 30px;
+            margin: 20px auto;
+            display: block;
+            color: blue;
+            font-size: 16px;
+            background: transparent;
+            padding: 15px 20px;
+            transition: all 200ms ease;
+        }
+
+        button:hover {
+            color: white;
+            background: blue;
+        }
+
+        ul {
+            list-style: none;
+            padding: 4px;
+            text-align: center;
+        }
+
+        li {
+
+            text-align: center;
+            padding: 10px 0;
+            border-radius: 10px;
+            transition: all 200ms ease-in-out;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        li:hover {
+            background: #fffbef;
+        }
+
+        p {
+            font-family: monospace;
+            margin: 20px 0;
+            font-size: 15px;
+            line-height: 1.4;
+        }
+
+        span {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h4><span class="emoji">🌤️</span></h4>
+    <h1>Currently 21° in Tokyo</h1>
+    <h2>13°/ <strong>23°</strong></h2>
+
+    <ul>
+        <li>
+            <a class="Tommorow"><span class="emoji">🌧️</span>Tommorow
+                <p>10°/<strong>22°</strong></p>
+            </a>
+        </li>
+        <li>
+            <a class="Saturday"><span class="emoji">⛅</span> Saturday
+                <p>15°/<strong>17°</strong></p>
+            </a>
+        </li>
+        <li>
+            <a class="Sunday"><span class="emoji">☀️</span> Sunday
+                <p>25°/<strong>28°</strong></p>
+            </a>
+        </li>
+    </ul>
+    <button>Change city</button>
+    <h3>Coded by Natalia Mokijevski</h3>
+</body>
+
+</html>
